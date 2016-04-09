@@ -8,10 +8,11 @@
 
 import Foundation
 import UIKit
+
 class SignupController: ViewController {
     @IBOutlet weak var username: UITextField!
     override func viewDidLoad() {
-
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,7 +23,13 @@ class SignupController: ViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func onSubmit(sender: UIButton) {
-        username.text
+        let regular_exp : NSRegularExpression = try NSRegularExpression(pattern: "^[A-Za-z0-9]{5,}$", options:[])
+        }
+    catch help{
+    
+        }
+        regular_exp.numberOfMatchesInString(username.text!, options: .WithoutAnchoringBounds, range: NSMakeRange(0, username.text!.characters.count))
     }
+    
     
 }
