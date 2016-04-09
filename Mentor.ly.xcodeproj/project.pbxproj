@@ -13,6 +13,8 @@
 		20642A4C1CB34B71008A5388 /* Mentor_ly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20642A4A1CB34B71008A5388 /* Mentor_ly.xcdatamodeld */; };
 		20642A4E1CB34B71008A5388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20642A4D1CB34B71008A5388 /* Assets.xcassets */; };
 		20642A511CB34B71008A5388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20642A4F1CB34B71008A5388 /* LaunchScreen.storyboard */; };
+		206BC8EF1CB9921B00C22E32 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206BC8EE1CB9921B00C22E32 /* SignupController.swift */; };
+		20B6BC371CB354100004AE4F /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20B6BC361CB354100004AE4F /* bird.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		20642A4D1CB34B71008A5388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20642A501CB34B71008A5388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20642A521CB34B71008A5388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206BC8EE1CB9921B00C22E32 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		20B6BC361CB354100004AE4F /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				20642A431CB34B71008A5388 /* AppDelegate.swift */,
 				20642A451CB34B71008A5388 /* ViewController.swift */,
 				20642A471CB34B71008A5388 /* Main.storyboard */,
+				206BC8EE1CB9921B00C22E32 /* SignupController.swift */,
 				20642A4D1CB34B71008A5388 /* Assets.xcassets */,
+				20B6BC361CB354100004AE4F /* bird.jpg */,
 				20642A4F1CB34B71008A5388 /* LaunchScreen.storyboard */,
 				20642A521CB34B71008A5388 /* Info.plist */,
 				20642A4A1CB34B71008A5388 /* Mentor_ly.xcdatamodeld */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20642A511CB34B71008A5388 /* LaunchScreen.storyboard in Resources */,
+				20B6BC371CB354100004AE4F /* bird.jpg in Resources */,
 				20642A4E1CB34B71008A5388 /* Assets.xcassets in Resources */,
 				20642A491CB34B71008A5388 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 				20642A4C1CB34B71008A5388 /* Mentor_ly.xcdatamodeld in Sources */,
 				20642A461CB34B71008A5388 /* ViewController.swift in Sources */,
 				20642A441CB34B71008A5388 /* AppDelegate.swift in Sources */,
+				206BC8EF1CB9921B00C22E32 /* SignupController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				20642A571CB34B71008A5388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
